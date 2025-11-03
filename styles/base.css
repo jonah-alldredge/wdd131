@@ -1,0 +1,30 @@
+:root {
+    
+    font-family: 'Cambria, Cochin, Georgia, Times, serif';
+}
+
+body{
+    max-width: 840px;
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: aqua;
+    /* border-radius: 10px; - This gives the corners a curved edge */
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(222, 220, 255);
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
