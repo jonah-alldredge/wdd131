@@ -28,7 +28,6 @@ header nav{
 
 :hover header nav{
     cursor: pointer;
-    
 }
 
 header a{
@@ -43,17 +42,22 @@ main{
     max-width: 840px;
 }
 
-.card p{
+.card.info{
     font-size: 18px;
+}
+
+.title-about{
+    font-size: 36px;
+}
+
+.title-flag {
+    font-size: 30px;
 }
 
 .card.left img {
     float: left;
     width: 150px;
     margin: 0 1rem 1rem 0;
-}
-.card.right h1 {
-    font-size: 30px;
 }
 
 .right img {
@@ -68,6 +72,8 @@ main{
 
 .card.right {
    overflow: auto;
+   padding: 1rem;
+   margin: 0 1rem 1rem 0;
 }
 
 .about-me {
