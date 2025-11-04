@@ -41,23 +41,27 @@ main{
     font-size: 18px;
 }
 
-.left img {
-    width: 100px;
+.card.left img {
+    float: left;
+    width: 150px;
+    margin: 0 1rem 1rem 0;
+}
+.card.right h1 {
+    font-size: 30px;
 }
 
 .right img {
-    width: 400px;
+    float: right;
+    width: 200px;
 }
 
-.left {
-    display: flex;
-    align-items: center;
-    
+.card.left {
+    overflow: auto;
+    padding: 1rem;
 }
 
-.right {
-    display: grid;
-    align-items: center;
+.card.right {
+   overflow: auto;
 }
 
 .about-me {
