@@ -1,5 +1,4 @@
 :root {
-    
     font-family: 'Cambria, Cochin, Georgia, Times, serif';
 }
 
@@ -16,6 +15,10 @@ body{
     /* border-radius: 10px; - This gives the corners a curved edge */
 }
 
+header {
+    max-width: 840px;
+}
+
 header nav{
     display: flex;
     justify-content: space-evenly;
@@ -29,16 +32,41 @@ header a{
     padding: 10px;
 }
 
+main{
+    margin-bottom: 10px;
+    max-width: 840px;
+}
+
 .card p{
     font-size: 18px;
 }
-.card img {
+
+.left img {
     width: 100px;
 }
 
-h1 {
-    text-align: center;
+.right img {
+    width: 400px;
 }
+
+.left {
+    display: flex;
+    align-items: center;
+    
+}
+
+.right {
+    display: grid;
+    align-items: center;
+}
+
+.about-me {
+    text-align: center;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 div {
     max-width: 840px;
     display: grid;
