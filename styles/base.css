@@ -28,3 +28,26 @@ header a{
     font-size: 18px;
     padding: 10px;
 }
+
+.card p{
+    font-size: 18px;
+}
+.card img {
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+div {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
