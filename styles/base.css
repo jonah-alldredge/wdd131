@@ -26,8 +26,10 @@ header nav{
     background-color: rgb(222, 220, 255);
 }
 
-:hover header nav{
+a:hover{
     cursor: pointer;
+    text-decoration: underline;
+    color: blueviolet;
 }
 
 header a{
