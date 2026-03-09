@@ -1,0 +1,44 @@
+.container {
+
+    display: grid;
+
+    /*Creates 3 columns 1:150px 2:100px 3:100px*/
+    grid-template-columns: 150px 100px 100px;
+    /*Creates 3 equal columns 1/3 of the page*/
+    grid-template-columns: 33% 33% 33%;
+    /*Sets the first and second row 1:200px 2:50px*/
+    grid-template-rows: 200px 50px;
+    /*minmax(200px, auto): takes 2 arguments, the first one: minimum size, the second one: maximum size*/
+    /*it also only addresses the first column*/
+    /*To make it work on columns you have to set the height to 100%?*/
+    grid-template-rows: minmax(200px, auto) 100px 100px;
+    /*repeat(3, 150px): 1: how many columns, 2: size*/
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+
+    /*USED FOR RESPONSIVE GRIDS*/
+    /*fraction -> relative values like flex-grow or flex-shrink*/
+    /*Makes 4 columns: 25%, 25%, 50%*/
+    grid-template-columns: 1fr 1fr 2fr;
+    /*Makes 7 columns: 14%, 28%, 56%*/
+    grid-template-columns: 1fr 2fr 4fr;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    /* grid:gap, 1: value between rows, 2: value between columns*/
+    grid-gap: 20px 20px;
+    justify-content: space-between; /* works the same way as gap, it also only affects the space between and doesn't touch the sides*/
+    justify-content: space-around;
+}
+
+.box {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 2em;
+
+    /* margin: 5px; */
+    /*x-axis*/
+    text-align: center;
+    /*align is y-axis*/
+    align-content: center;
+}

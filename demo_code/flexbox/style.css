@@ -1,0 +1,51 @@
+/* "#" calls the id - "." calls the class */
+/*When you're struggling to figure out what the border of the box is, put a black solid border around it*/
+.container {
+    display: flex;
+    border: 10px solid black;
+    /* The auto flex direction is set to row*/
+    flex-direction: row-reverse;
+    /*completely inverses the row*/
+    flex-direction: column;
+    /*puts them into a column*/
+    flex-direction: column-reverse;
+    /*reverses a column*/
+    /*justify-content - sets the content on the main axis(x-axis)*/
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    /*align-items - sets the content on the cross axis(y-axis)*/
+    align-items: flex-start;
+    /*this is the default*/
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+    align-items: flex-start;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 15px;
+    font-size: 8em;
+    text-align: center;
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: yellow;
+}
+
+#box3 {
+    background-color: green;
+}
+
+#box4 {
+    background-color: blue;
+}

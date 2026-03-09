@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jonah Alldredge">
-    <meta name="description" content="This is my first page for this class. It is a little about me and where I'm from. Which is Utah in the United States of America">
+    <meta name="description"
+        content="This is my first page for this class. It is a little about me and where I'm from. Which is Utah in the United States of America">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script src="scripts/getdates.js" defer></script> <!--without the defer function the script might run too early, before the element exists -->
+    <script src="scripts/getdates.js" defer></script>
+    <!--without the defer function the script might run too early, before the element exists -->
     <title>WDD 131 - Dynamic Web Fundamentals - Jonah Alldredge</title>
 </head>
 
@@ -25,32 +27,44 @@
         </nav>
     </header>
     <main>
-        <h1 class="about-me">Jonah Alldredge</h1>
-        <div>
-            <section class="card left">
-                <p class="title-about">About Me!</p>
-                <img src="images/profile.jpg" alt="This is Me!">
-                <p class="info">
-                    My name is Jonah! I am currently serving as a Service Missionary for the Church of Jesus Christ of
-                    Latter-Day Saints.
-                    I am so grateful for the opportunity I've had serving the Lord! I am also very grateful for the
-                    opportunity
-                    to be in school and learning how to code. It has been an uphill battle but I am always ready for a
-                    challenge!
-                </p>
-                
+        <h1 class="name">Jonah Alldredge</h1>
+        <div class="cardInfo">
+            <section class="cardLeft">
+                <p class="titleAbout">About Me!</p>
+                <div class="personalInfo">
+                    <img src="images/profile.jpg" alt="This is Me!">
+                    <p class="content" id="aboutMe">
+                        My name is Jonah! I am currently serving as a Service Missionary for the Church of Jesus Christ of
+                        Latter-Day Saints.
+                        I am so grateful for the opportunity I've had serving the Lord! I am also very grateful for the
+                        opportunity
+                        to be in school and learning how to code. It has been an uphill battle but I am always ready for a
+                        challenge!
+                    </p>
+                </div>
+                <div class="flagInfo">
+                    <p class="titleFlag">The United States Official Flag</p>
+                    <img src="images/american-flag.jpg" alt="Official Flag of The United States of America">
+                    <p class="content">
+                        I live in the United States of America. I am from Utah! Utah is a western state in the United States
+                        known for its beautiful mountains, red rock deserts,
+                        and outdoor
+                        recreation. It is home to five national parks, vibrant communities, and a strong sense of history
+                        and culture. Living in
+                        Utah offers four distinct seasons, stunning scenery, and a high quality of life.
+                    </p>
+                </div>
             </section>
-            <section class="card right">
-                
-                <p class="title-flag">The United States Official Flag</p>
-                <img src="images/american-flag.jpg" alt="Official Flag of The United States of America">
-                <p class="info">
-                    I live in the United States of America. I am from Utah! Utah is a western state in the United States known for its beautiful mountains, red rock deserts,
-                    and outdoor
-                    recreation. It is home to five national parks, vibrant communities, and a strong sense of history
-                    and culture. Living in
-                    Utah offers four distinct seasons, stunning scenery, and a high quality of life.
-                </p>
+            <section class="cardRight">
+                <p class="titleAbout" id="webDev">Web Dev Resources</p>
+                <ul class="webDevHelps">
+                    <li><a href="https://www.boot.dev/" target="_blank">Boot.dev</a></li>
+                    <li><a href="https://www.youtube.com/@BroCodez" target="_blank">Bro Code</a></li> <!--The "target:"_blank"" opens the link in a new tab-->
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
             </section>
         </div>
     </main>

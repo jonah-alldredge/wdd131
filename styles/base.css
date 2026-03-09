@@ -3,7 +3,7 @@
 }
 
 body{
-    max-width: 840px;
+    max-width: 1040px;
     margin: auto;
 }
 
@@ -17,19 +17,13 @@ body{
 }
 
 header {
-    max-width: 840px;
+    max-width: 1040px;
 }
 
 header nav{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(222, 220, 255);
-}
-
-a:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    color: blueviolet;
 }
 
 header a{
@@ -40,55 +34,93 @@ header a{
 }
 
 main{
+    margin: auto; /*This centers the page*/
     margin-bottom: 10px;
-    max-width: 840px;
+    max-width: 940px;
 }
 
-.card.info{
-    font-size: 18px;
-}
-
-.title-about{
-    font-size: 36px;
-}
-
-.title-flag {
-    font-size: 30px;
-}
-
-.card.left img {
-    float: left;
-    width: 150px;
-    margin: 0 1rem 1rem 0;
-}
-
-.right img {
-    float: right;
-    width: 200px;
-}
-
-.card.left {
-    overflow: auto;
-    padding: 1rem;
-}
-
-.card.right {
-   overflow: auto;
-   padding: 1rem;
-   margin: 0 1rem 1rem 0;
-}
-
-.about-me {
+.name { /* This is my name header "Jonah Alldredge" */
     text-align: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-div {
-    max-width: 840px;
+.titleAbout { /* "About Me" */
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    background-color: aqua;
+    /* border: blue solid 2px; */
+    border-radius: 10px 10px 0 0;
+}
+
+.cardInfo{ /* This is the about me section */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* border: 2px black solid; */
+    
+}
+
+.personalInfo{ /* Text Box for info about me */
+    font-size: 18px;
+    /* border: 1px gray solid; */
+}
+
+.personalInfo img{ /* picture of me */
+    float: right;
+}
+
+.flagInfo img{
+    float: left;
+}
+
+.titleFlag {
+    font-size: 30px;
+    margin: 1em 0 0 1em;
+}
+
+.cardLeft {
+    border: 2px rgb(222, 220, 255) solid;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.cardLeft img {
+    width: 150px;
+    margin: 1rem;
+}
+.content{ /* Both p tag content */
+    font-size: 18px;
+    margin-left: 1em;
+    /* border: yellow 2px solid; */
+}
+
+
+.cardRight{
+    border: 2px rgb(222, 220, 255) solid;
+    border-radius: 10px;
+}
+.info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* border: 2px solid purple; */
+}
+
+.webDevHelps li{ /* Unordered list items */
+    font-size: 24px;
+    margin-top: 2rem;
+}
+
+.webDevHelps a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blueviolet;
 }
 
 #lastModified {
