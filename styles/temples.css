@@ -2,9 +2,15 @@
     font-family: 'Cambria, Cochin, Georgia, Times, serif';
 }
 
-body {
-    max-width: 1040px;
-    margin: auto;
+
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
 }
 
 
