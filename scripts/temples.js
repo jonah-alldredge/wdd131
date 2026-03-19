@@ -1,3 +1,11 @@
+const hamButton = document.querySelector("#menu");
+
+
+hamButton.addEventListener("click", () => {
+    hamButton.classList.toggle("show"); 
+});
+
+
 // Create a new Date object
 const lastModified = new Date();
 const currentYear = new Date().getFullYear();
