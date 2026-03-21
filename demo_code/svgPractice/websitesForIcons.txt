@@ -1,0 +1,4 @@
+Websites for Icons:
+ionic.io
+icons.getbootstrap.com
+fontawesome.com

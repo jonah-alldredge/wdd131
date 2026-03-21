@@ -1,0 +1,38 @@
+a:link{
+    color: lightblue;
+}
+a:hover{
+    color:white;
+    font-size: 1.1em;
+}
+a:active{ /* This is when you are holding the button down */
+    color: blue;
+    font-size: 1.1em;
+}
+a:visited{
+    color: gray;
+}
+a{
+    content: none;
+}
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){ /* Anything that is NOT being hovered over */
+    color: gray;
+}
+li:nth-child(even){ /* Whatever number you put in the pararenthees; you can type: odd, even, 3n-every 3rd number, 3n+1 */
+    background-color: yellow;
+}
+ul{
+    content: none;
+}
+#greeting p{
+    background-color: aliceblue;
+    padding: 0.8rem;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+/* These are useful for dropdowns */

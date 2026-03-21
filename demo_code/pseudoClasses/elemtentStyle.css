@@ -1,0 +1,35 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+h1:first-letter{
+    color:purple;
+}
+p::first-line{
+    background-color: yellow;
+}
+p:last
+p::selection{ /* Anything the mouse selects */
+    color: green;
+    background-color: gray;
+}
+#fruit li::before{
+    /* content: "✔"; */
+}
+#apple::after{
+    content: "🍎"
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "✔";
+    color: green;
+    font-size: 1.2em;
+}
+/* The reason for the double colon is because years ago when css was created, single colons were used for both
+pseudo elements and classes. To help developers tell them apart they then made it how it is today; Elements use "::"
+and Classes use ":".  */
