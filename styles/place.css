@@ -39,6 +39,15 @@ main {
     margin-bottom: 10px;
     max-width: 940px;
 }
+h1{
+    text-align: center;
+    background-color: rgb(222, 220, 255);
+    border-radius: 10px 10px 0px 0px;
+    padding: 0.5rem;
+}
+picture{
+    width: 500px;
+}
 
 #lastModified {
     color: purple;
@@ -51,4 +60,8 @@ footer {
     font-size: 18px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+@media (min-width: 650px){
+
 }
