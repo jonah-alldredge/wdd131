@@ -10,25 +10,16 @@
     <script src="scripts/place.js" defer></script>
 </head>
 <body>
-    <header>
-        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
-        <nav>
-            <a href="https://www.linkedin.com/">LinkedIn</a>
-            <a href="https://byupw.instructure.com/">Canvas</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/4?lang=eng">Scripture</a>
-            <a href="#">Final Project</a>
-        </nav>
-    </header>
     <main>
         <h1>New Zealand</h1>
-        <body class="information">
+        <div class="information">
             <picture>
-                <source media="(min-width:700px)" srcset="images/newZealandLarge.webp">
+                <source media="(min-width:700px)" srcset="images/new-zealand-large.webp">
                 <img src="images/newZealandTall.webp" alt="New Zealand scenery">
             </picture>
-            <div class="data">
-                <h2>Data</h2>
-                <ul class="dataList">
+            <div class="data" id="description">
+                <h2  id="description-title">Data</h2>
+                <ul class="dataList" id="info-list">
                     <li>Area: </li>
                     <li>Population: </li>
                     <li>Capital: </li>
@@ -38,19 +29,22 @@
                     <li>Calling Code: </li>
                     <li>Internet TLD: </li>
                 </ul>
+            </div>
+            <div class="weather" id="description">
+                <div class="weather-header" id="description-title">
+                    <h2>Weather</h2>
+                    <img src="images/sunny-outline.svg" alt="Sun">
+                </div>
+                <ul class="weatherList" id="info-list">
+                    <li>Temperature: </li>
+                    <li>Conditions: </li>
+                    <li>Wind: </li>
+                    <li>Wind Chill: </li>
+                </ul>
+            </div>
         </div>
-        <div class="weather">
-            <h2>Weather</h2>
-            <ul class="weatherList">
-                <li>Temperature: </li>
-                <li>Conditions: </li>
-                <li>Wind: </li>
-                <li>Wind Chill: </li>
-            </ul>
-        </div>
-    </body>
     </main>
-    <footer>
+<footer>
     <p>&copy;<span id="currentYear"></span> &#128526; Jonah Alldredge &#128526; Utah, United States</p>
     <p id="lastModified"></p>
 </footer>

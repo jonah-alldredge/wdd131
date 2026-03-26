@@ -6,47 +6,53 @@ body {
     max-width: 1040px;
     margin: auto;
 }
-
-#course-title {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    font-size: 30px;
-    background-color: aqua;
-    /* border-radius: 10px; - This gives the corners a curved edge */
-}
-
-header {
-    max-width: 1040px;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(222, 220, 255);
-}
-
-header a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    padding: 10px;
-}
-
 main {
     margin: auto;
     /*This centers the page*/
     margin-bottom: 10px;
-    max-width: 940px;
+    max-width: 1040px;
 }
 h1{
     text-align: center;
-    background-color: rgb(222, 220, 255);
+    background-color: aqua;
     border-radius: 10px 10px 0px 0px;
     padding: 0.5rem;
+    margin: 1rem 0 0 0;
 }
-picture{
-    width: 500px;
+.information{
+    position: relative;
+}
+.data{
+    /* position: absolute; */
+    border: 1px black solid;
+}
+#description{
+    background-color: aliceblue;
+    max-width: 20rem;
+}
+#description-title{
+    margin: 0;
+    padding: 1rem;
+    background-color: rgb(222, 220, 255);
+}
+h2{
+    margin: 0;
+}
+.weather-header{
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+#info-list{
+    list-style: none;
+    padding: 0.5rem;
+}
+#info-list li{
+    margin-bottom: 0.5rem;
+}
+picture img{
+    width: 100%;
+    /* padding-left: 2rem; */
 }
 
 #lastModified {
@@ -63,5 +69,7 @@ footer {
 }
 
 @media (min-width: 650px){
-
+    body{
+        display: block;
+    }
 }
