@@ -22,15 +22,11 @@ h1{
 .information{
     position: relative;
 }
-.data{
-    /* position: absolute; */
-    border: 1px black solid;
-}
-#description{
+.description{
     background-color: aliceblue;
-    max-width: 20rem;
+    width: 20rem;
 }
-#description-title{
+.description-title{
     margin: 0;
     padding: 1rem;
     background-color: rgb(222, 220, 255);
@@ -38,16 +34,16 @@ h1{
 h2{
     margin: 0;
 }
-.weather-header{
+#weather-header{
     display: flex;
     gap: 1rem;
     margin: 0;
 }
-#info-list{
+.info-list{
     list-style: none;
     padding: 0.5rem;
 }
-#info-list li{
+.info-list li{
     margin-bottom: 0.5rem;
 }
 picture img{
@@ -68,8 +64,26 @@ footer {
     border-bottom-right-radius: 10px;
 }
 
-@media (min-width: 650px){
+@media (max-width: 650px){
     body{
         display: block;
+        width: 100%;
+    }
+    #description{
+        background-color: white;
+        width: 100%;
+        text-align: center;
+    }
+    #description-title{
+        background: white;
+    }
+    .data{
+        border-bottom: 1px black solid;
+    }
+    .weather-header{
+        justify-content: center;
+    }
+    .weather-list{
+        margin-top: 0;
     }
 }

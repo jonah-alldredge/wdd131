@@ -10,16 +10,19 @@
     <script src="scripts/place.js" defer></script>
 </head>
 <body>
-    <main>
+    <header>
         <h1>New Zealand</h1>
+    </header>
+    <main>
         <div class="information">
             <picture>
                 <source media="(min-width:700px)" srcset="images/new-zealand-large.webp">
-                <img src="images/newZealandTall.webp" alt="New Zealand scenery">
+                <img src="images/new-zealand-tall.webp" alt="New Zealand scenery">
             </picture>
-            <div class="data" id="description">
-                <h2  id="description-title">Data</h2>
-                <ul class="dataList" id="info-list">
+            <div class="description" id="data"> 
+                <!-- class="data" id="description" -->
+                <h2 class="description-title">Data</h2>
+                <ul class="info-ist" id="data-list">
                     <li>Area: </li>
                     <li>Population: </li>
                     <li>Capital: </li>
@@ -30,12 +33,14 @@
                     <li>Internet TLD: </li>
                 </ul>
             </div>
-            <div class="weather" id="description">
-                <div class="weather-header" id="description-title">
+            <div class="description" id="weather">
+                <div class="description-title" id="weather-header">
+                    <!-- class="weather-header" id="description-title" -->
                     <h2>Weather</h2>
-                    <img src="images/sunny-outline.svg" alt="Sun">
+                    <img src="images/sunny-outline.svg" alt="emoji of the sun">
                 </div>
-                <ul class="weatherList" id="info-list">
+                <ul class="info-list" id="weather-list">
+                    <!-- class="weather-list" id="info-list" -->
                     <li>Temperature: </li>
                     <li>Conditions: </li>
                     <li>Wind: </li>
