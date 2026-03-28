@@ -53,10 +53,7 @@ picture img {
 }
 
 #weather-header {
-    display: flex;
-    gap: 1rem;
-    margin: 0;
-    justify-content: center;
+    display: block;
 }
 
 #info-list {
@@ -104,6 +101,12 @@ footer {
         #weather-box {
             bottom: 2rem;
             right: 2rem;
+        }
+        #weather-header{
+            display: flex;
+            column-gap: 1rem;
+            margin: 0;
+            justify-content: center;
         }
         picture {
             display: block;

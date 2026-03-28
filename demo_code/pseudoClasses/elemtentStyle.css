@@ -17,7 +17,7 @@ p::selection{ /* Anything the mouse selects */
     /* content: "✔"; */
 }
 #apple::after{
-    content: "🍎"
+    content: "🍎";
 }
 #orange::after{
     content: "🍊";
