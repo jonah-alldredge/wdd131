@@ -108,6 +108,12 @@ footer {
             margin: 0;
             justify-content: center;
         }
+        #weather-header::after{
+            content: "⛅";
+        }
+        #weather-header img{
+            display: none;
+        }
         picture {
             display: block;
         }
