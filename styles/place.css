@@ -5,6 +5,8 @@
 body {
     max-width: 1040px;
     margin: auto;
+    display: block;
+    width: 100%;
 }
 main {
     margin: auto;
@@ -17,12 +19,6 @@ h1{
     border-radius: 10px 10px 0px 0px;
     padding: 0.5rem;
     margin: 1rem 0 0 0;
-}
-
-
-body {
-    display: block;
-    width: 100%;
 }
 
 .description {
@@ -60,8 +56,6 @@ picture img {
     display: flex;
     gap: 1rem;
     margin: 0;
-}
-#weather-header {
     justify-content: center;
 }
 
