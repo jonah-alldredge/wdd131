@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+<body>
+    <table>
+        <caption>Table 1: Account Feature Comparison</caption> <!-- Table caption -->
+        <thead><!-- Table Head -->
+            <tr> <!-- Table Row? -->
+                <th colspan="4" scope="colgroup" class="black" id="header-box">ACME Wildwest Services</th> 
+                <!-- colspan="" makes a single cell span across multiple columns-->
+                <!-- scope="colgroup" tells the browser this is the heading for the entire group of columns -->
+            </tr>
+            <tr>
+                <th scope="col" class="black"></th> <!--Table Header?-->
+                <th scope="col" class="dark-gray">Basic</th>
+                <th scope="col" class="dark-gray">Premium</th>
+                <th scope="col" class="dark-gray">Deluxe</th>
+                <!-- scope="" specifies that this is the header for the vertical column of text below it -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Feature 1</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+            </tr>
+            <tr class="gray">
+                <td>Feature 2</td>
+                <td>❌</td>
+                <td>✔</td>
+                <td>✔</td>    
+            </tr>
+            <tr>
+                <td>Feature 3</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>    
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

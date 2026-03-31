@@ -1,0 +1,35 @@
+table{
+    border: black 1px solid;
+    font-size: 2rem;
+    border-collapse: collapse; /*Gets rid of space in between the lines*/
+}
+.dark-gray{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+#header-box{
+    vertical-align:auto;
+}
+th, td{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    white-space: pre;
+}
+thead th, tbody td{
+    padding: 0.5rem;
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+tbody:nth-child(){
+    border: solid 1px black;
+}
+caption{
+    padding: 1rem;
+    caption-side: bottom;
+    font-size: 1.5rem;
+}
