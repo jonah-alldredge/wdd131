@@ -1,0 +1,14 @@
+@media (min-width: 1000px){
+    main {
+        /* width: 1040px; */
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .card{
+        width: 20rem;
+        /* padding: 0.5rem; */
+    }
+}

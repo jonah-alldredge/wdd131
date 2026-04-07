@@ -1,0 +1,42 @@
+:root{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+body{
+    text-align: center;
+}
+header{
+    padding: 1rem;
+    background-color: #371b51;
+    color: yellow;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-between;
+    justify-items: center;
+}
+.card{
+    width: 20rem;
+    text-align: center;
+    background-color: lightyellow;
+    margin: 1rem;
+    padding: 1rem;
+}
+span{
+    color: #371b51;
+}
+footer{
+    padding: 1rem;
+    background-color: #371b51;
+    color: yellow;
+}
+
+@media (max-width: 700px){
+    main{
+        display: block;
+    }
+    .card{
+        width: 22rem;
+        padding: 1rem;
+    }
+}
