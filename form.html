@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jonah Alldredge">
+    <meta name="description" content="This is a page for a product review form. When leaving a review there are certain inputs that are required and some that are optional">
     <title>Product Review</title>
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
@@ -18,9 +20,7 @@
             <label for="product-name">Product Name</label>
             <br>
             <select name="product-name" id="product-name" required>
-                <option value="none" selected disabled>Choose a Product ...</option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="" disabled selected>Select a Product ...</option>
             </select>
             <br>
             
@@ -79,7 +79,7 @@
             <!-- Written Review -->
             <label for="review">Written Review <span class="optional">(Optional)</span></label>
             <br>
-            <input type="textarea" id="review" name="review">
+            <textarea name="review" id="review"></textarea>
             <br>
             
             <!-- Name -->

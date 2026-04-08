@@ -14,7 +14,7 @@ main{
 }
 #product-name{
     width: 100%;
-    padding: 6px;
+    padding: 4px;
 }
 .overall-rating{
     display: flex;
@@ -24,17 +24,22 @@ main{
     display: flex;
     flex-direction: column;
 }
+input[type="checkbox"]{
+    transform: scale(1.4);
+    margin: 7px;
+    cursor: pointer;
+}
 #date{
-    width: 100%;
+    width: 98%;
     font-size: 16px;
+    padding: 4px;
 }
 .optional{
     color: purple;
 }
 #review{
-    width: 100%;
+    width: 99%;
     min-height: 100px;
-    vertical-align: text-top;
 }
 #name{
     width: 98%;
