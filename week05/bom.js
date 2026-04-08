@@ -30,3 +30,19 @@ let chaptersArray = getChapterList() || [];
 chaptersArray.forEach(chapter => {
     displayList(chapter);
 });
+
+function displayList(item) {
+    const li = document.createElement("li");
+    li.textContent = input.value;
+    // Creates a button and adds a click event listener
+    const deleteButton = document.createElement("button");
+    deleteButton.textContent = "❌";
+    deleteButton.addEventListener("click", function () {
+        list.removeChild(li);
+        input.focus();
+    });
+    // Adds the button to the list item
+    li.appendChild(deleteButton);
+    // Output: finally displays the completed list item to the unordered list
+    list.appendChild(li);
+}
