@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+
+            <!-- Product Name -->
+            <label for="product-name">Product Name</label>
+            <br>
+            <select name="product-name" id="product-name" required>
+                <option value="none" selected disabled>Choose a Product ...</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <br>
+            
+            <!-- Overall Rating -->
+            <br>
+            <label for="rating">Overall Rating</label>
+            <br>
+            <div class="overall-rating">
+                <div class="star-rating">
+                    <label for="1star">⭐</label>
+                    <input type="radio" id="1star" name="rating" value="⭐" required>
+                </div>
+                <div class="star-rating">
+                    <label for="2star">⭐⭐</label>
+                    <input type="radio" id="2star" name="rating" value="⭐⭐" required>
+                </div>
+                <div class="star-rating">
+                    <label for="3star">⭐⭐⭐</label>
+                    <input type="radio" id="3star" name="rating" value="⭐⭐⭐" required>
+                </div>
+                <div class="star-rating">
+                    <label for="4star">⭐⭐⭐⭐</label>
+                    <input type="radio" id="4star" name="rating" value="⭐⭐⭐⭐" required>
+                </div>
+                <div class="star-rating">
+                    <label for="5star">⭐⭐⭐⭐⭐</label>
+                    <input type="radio" id="5star" name="rating" value="⭐⭐⭐⭐⭐" required>
+                </div>
+            </div>
+            <br>
+
+            <!-- Date of Installation -->
+            <label for="date">Date of Installation</label>
+            <br>
+            <input type="date" id="date" required>
+            <br>
+
+            <!-- Useful Features -->
+            <br>
+            <label for="features">Which features did you find useful in the product?<br>(Check all that apply)</label>
+            <br>
+            <input type="checkbox" name="features" id="durability" value="durability">
+            <label for="durability">Durability</label>
+            <br>
+            <input type="checkbox" name="features" id="use" value="use">
+            <label for="use">Ease of Use</label>
+            <br>
+            <input type="checkbox" name="features" id="performance" value="performance">
+            <label for="performance">Performance</label>
+            <br>
+            <input type="checkbox" name="features" id="design" value="design">
+            <label for="design">Design</label>
+            <br>
+            <br>
+
+            <!-- Written Review -->
+            <label for="review">Written Review <span class="optional">(Optional)</span></label>
+            <br>
+            <input type="textarea" id="review" name="review">
+            <br>
+            
+            <!-- Name -->
+            <br>
+            <label for="name">Your Name <span class="optional">(Optional)</span></label>
+            <br>
+            <input type="text" id="name" name="name">
+            <br>
+
+            <br>
+            <div id="button">
+                <input type="submit" value="Post Review" id="submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> &#128526; Jonah Alldredge &#128526; Utah, United States</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

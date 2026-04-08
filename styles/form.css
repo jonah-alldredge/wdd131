@@ -1,0 +1,57 @@
+body{
+    width: 500px;
+    margin: auto;
+    /* text-align: center; */
+}
+header{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px 10px 0 0;
+}
+main{
+    background-color: rgb(222, 220, 255);
+    padding: 1rem;
+}
+#product-name{
+    width: 100%;
+    padding: 6px;
+}
+.overall-rating{
+    display: flex;
+    gap: 2rem;
+}
+.star-rating{
+    display: flex;
+    flex-direction: column;
+}
+#date{
+    width: 100%;
+    font-size: 16px;
+}
+.optional{
+    color: purple;
+}
+#review{
+    width: 100%;
+    min-height: 100px;
+    vertical-align: text-top;
+}
+#name{
+    width: 98%;
+    padding: 6px;
+}
+#button{
+    text-align: center;
+
+}
+#submit{
+    font-size: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 0 0 10px 10px;
+}
