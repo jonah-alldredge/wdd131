@@ -60,3 +60,14 @@ footer{
     background-color: aqua;
     border-radius: 0 0 10px 10px;
 }
+@media(max-width:550px){
+    body{
+        text-align: center;
+    }
+    #product-name, #date, #review, #name{
+        width: 50%;
+    }
+    .overall-rating{
+        display: block;
+    }
+}
