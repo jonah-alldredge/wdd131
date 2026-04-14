@@ -7,6 +7,11 @@
         justify-content: space-between;
         justify-items: center;
     }
+    .navMenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
     .card{
         width: 20rem;
         /* padding: 0.5rem; */

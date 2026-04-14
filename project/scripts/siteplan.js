@@ -27,20 +27,148 @@ const roadBike = [
         manufactured: "Trek",
         name: "Madone SLR 9 Gen 8",
         year: "2026",
-        price: 14299.99,
-        imageUrl: "images/trek-highprice.webp",
+        price: "14,299.99",
+        imageUrl: "images/trek-high-price.webp",
         link: "https://www.sharpbicycle.com/product/trek-madone-slr-9-gen-8-770737-1.htm"
+    },
+    {
+        manufactured: "Trek",
+        name: "Checkpoint SL 7 AXS Gen 3",
+        year: "2026",
+        price: "6,249.99",
+        imageUrl: "images/trek-medium-price.webp",
+        link: "https://www.sharpbicycle.com/product/trek-checkpoint-sl-7-axs-gen-3-1244236-1.htm"
+    },
+    {
+        manufactured: "Trek",
+        name: "Domane AL 2 Gen 4",
+        year: "2024",
+        price: "1,199.99",
+        imageUrl: "images/trek-low-price.webp",
+        link: "https://www.sharpbicycle.com/product/trek-domane-al-2-gen-4-551489-1.htm"
+    },
+    {
+        manufactured: "Giant",
+        name: "Propel Advanced SL 0",
+        year: "2026",
+        price: "13,000",
+        imageUrl: "images/giant-high-price.webp",
+        link: "https://www.giant-bicycles.com/us/propel-advanced-sl-0--red-"
+    },
+    {
+        manufactured: "Giant",
+        name: "Propel Advanced Pro 0-AXS",
+        year: "2026",
+        price: "8,250",
+        imageUrl: "images/giant-medium-price.webp",
+        link: "https://www.giant-bicycles.com/us/propel-advanced-pro-0-axs-2027"
+    },
+    {
+        manufactured: "Giant",
+        name: "Contend 3",
+        year: "2025",
+        price: "900",
+        imageUrl: "images/giant-low-price.jpg",
+        link: "https://www.giant-bicycles.com/us/contend-3-2025"
+    },
+    {
+        manufactured: "Cannondale",
+        name: "SuperSix EVO LAB71 Team",
+        year: "2025",
+        price: "14,999",
+        imageUrl: "images/cannondale-high-price.webp",
+        link: "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-lab71-team-c11105u"
+    },
+    {
+        manufactured: "Cannondake",
+        name: "Synapse Carbon 1",
+        year: "2025",
+        price: "8,499",
+        imageUrl: "images/cannondale-medium-price.webp",
+        link: "https://www.cannondale.com/en-us/bikes/road/endurance/synapse-carbon/synapse-carbon-1"
+    },
+    {
+        manufactured: "Cannondale",
+        name: "Synapse 2",
+        year: "2025",
+        price: "1,799",
+        imageUrl: "images/cannondale-low-price.png",
+        link: "https://www.cannondale.com/en-us/bikes/road/endurance/synapse/synapse-2"
     }
 ];
 
 const mountainBike = [
     {
-        manufactured: "Giant",
-        name: "Madone SLR 9 Gen 8",
+        manufactured: "Trek",
+        name: "Slash+ 9.7 SLC/XT",
+        year: "2025",
+        price: "7,999.99",
+        imageUrl: "images/trek-mountain-high-price.webp",
+        link: "https://www.sharpbicycle.com/product/trek-slash-9.7-slx-xt-821386-1.htm"
+    },
+    {
+        manufactured: "Trek",
+        name: "Top Fuel 8",
+        year: "2025",
+        price: "3,499.99",
+        imageUrl: "images/trek-mountain-medium-price.jpg",
+        link: "https://www.sharpbicycle.com/product/trek-top-fuel-8-398587-1.htm"
+    },
+    {
+        manufactured: "Trek",
+        name: "Marlinn 5 Gen 3",
         year: "2026",
-        price: 14299.99,
-        imageUrl: "images/trek-highprice.webp",
-        link: "https://www.sharpbicycle.com/product/trek-madone-slr-9-gen-8-770737-1.htm"
+        price: "799.99",
+        imageUrl: "images/trek-mountain-low-price.png",
+        link: "https://www.sharpbicycle.com/product/trek-marlin-5-gen-3-709745-1.htm"
+    },
+    {
+        manufactured: "Giant",
+        name: "Trance X Advanced 0",
+        year: "2024",
+        price: "8,000",
+        imageUrl: "images/giant-mountain-high-price.webp",
+        link: "https://www.giant-bicycles.com/us/trance-x-advanced-0-2024"
+    },
+    {
+        manufactured: "Giant",
+        name: "XTC Advanced 29 1",
+        year: "2026",
+        price: "4,000",
+        imageUrl: "images/giant-mountain-medium-price.webp",
+        link: "https://www.giant-bicycles.com/us/xtc-advanced-29-1"
+    },
+    {
+        manufactured: "Giant",
+        name: "Stance",
+        year: "2022",
+        price: "1,400",
+        imageUrl: "images/giant-mountain-low-price.jpg",
+        link: "https://www.giant-bicycles.com/us/stance-2022"
+    },
+    {
+        manufactured: "Cannondale",
+        name: "Moterra SL 1",
+        year: "2024",
+        price: "11,549",
+        imageUrl: "images/cannondale-mountain-high-price.png",
+        link: "https://www.cannondale.com/en-us/bikes/electric/e-mountain/moterra-sl/moterra-sl-1"
+    },
+    {
+        manufactured: "Cannondale",
+        name: "Moterra 4",
+        year: "2024",
+        price: "4,499",
+        imageUrl: "images/cannondale-mountain-medium-price.png",
+        link: "https://www.cannondale.com/en-us/bikes/electric/e-mountain/moterra-neo/moterra-4-smu"
+    },
+    {
+        manufactured: "Cannondale",
+        name: "Habit HT 3",
+        year: "2023",
+        price: "1,199",
+        imageUrl: "images/cannondale-mountain-low-price.png",
+        link: "https://www.cannondale.com/en-us/bikes/mountain/trail-bikes/habit-ht/habit-ht-3"
     }
 ];
 
@@ -76,9 +204,9 @@ function createBikeCard(bikes) {
         // div.appendChild();
         img.setAttribute("src", bike.imageUrl);
         img.setAttribute("loading", "lazy");
-        img.setAttribute("alt", `Picture of the ${bike.name} bike`);
+        img.setAttribute("alt", `Picture of the ${bike.name}`);
         title.textContent = bike.name;
-        manufactured.textContent = `Made by ${bike.manufactured}`;
+        manufactured.textContent = `Made by: ${bike.manufactured}`;
         year.textContent = `Year Made: ${bike.year}`;
         price.textContent = `Price: $${bike.price}`;
     });
