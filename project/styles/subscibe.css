@@ -1,0 +1,80 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+body {
+    width: 500px;
+    margin: auto;
+    /* text-align: center; */
+}
+
+header {
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem;
+    background-color: #371b51;
+    color: yellow;
+}
+
+main {
+    
+    background-color: lightyellow;
+    padding: 1rem;
+}
+form {
+    align-items: center;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.4);
+    margin: 7px;
+    cursor: pointer;
+}
+
+#button {
+    text-align: center;
+}
+
+#submit {
+    font-size: 20px;
+    background-color: #371b51;
+    color: yellow;
+}
+
+#submit:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #371b51;
+    color: yellow;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+footer a{
+    text-decoration: underline;
+    color: yellow;
+}
+footer a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media(max-width:550px) {
+    body {
+        text-align: center;
+    }
+
+    #product-name,
+    #date,
+    #review,
+    #name {
+        width: 50%;
+    }
+
+    .overall-rating {
+        display: block;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jonah Alldredge">
+    <meta name="description" content="This page is where you can subscribe to our content and join our newsletter">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="styles/subscibe.css">
+    <script src="scripts/subscribe.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Join Our Newsletter</h1>
+    </header>
+    <main>
+        <form action="siteplan.html" method="get">
+            <label for="fname">First Name:</label>
+            <br>
+            <input type="text" id="fname" required>
+            <br>
+            <br>
+            <label for="lname">Last Name:</label>
+            <br>
+            <input type="text" id="lname" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" id="email" required>
+            <br>
+            <br>
+            <label for="subscibe">Receive a weekly newsletter: </label>
+            <input type="checkbox" id="subscibe">
+            <br>
+            <br>
+            <!-- I'm thinking of having a button to submit the page and then it takes you to a submitted page and then it can redirect you to the main page -->
+            <div id="button">
+                <input type="submit" value="Subscribe" id="submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Click <a href="siteplan.html">HERE</a> to return to the home page</p>
+    </footer>
+</body>
+</html>

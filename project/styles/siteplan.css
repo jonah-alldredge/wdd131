@@ -36,9 +36,6 @@ main{
     justify-content: space-between;
     justify-items: center;
 }
-p{
-    
-}
 .card{
     width: 20rem;
     text-align: center;
@@ -58,8 +55,18 @@ footer{
     background-color: #371b51;
     color: yellow;
 }
+footer a{
+    text-decoration: underline;
+}
+footer a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
 
 @media (max-width: 700px){
+    .card{
+        flex-direction: column;
+    }
     .navMenu{
         position: fixed;
         left: -100%;
